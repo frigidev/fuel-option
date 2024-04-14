@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Diesel, Ethanol or Gasoline</title>
+  </head>
+
+  <body>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-12 d-flex justify-content-center">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title">Is it better to use Diesel, Ethanol or Gasoline?</h2>
+              <form>
+                <div class="form-group mr-2">
+                  <label for="ethanol">Ethanol price</label>
+                  <input id="ethanol" type="text" placeholder="Type the ethanol price (ex: 2.20)" 
+                  class="form-control">
+                </div>
+                <div class="form-group mr-2">
+                  <label for="gasoline">Gasoline price</label>
+                  <input id="gasoline" type="text" placeholder="Type the gasoline price (ex: 3.50)" 
+                  class="form-control">
+                </div>
+                <div class="form-group mr-2">
+                  <label for="diesel">Diesel price</label>
+                  <input id="diesel" type="text" placeholder="Type the diesel price (ex: 2.50)" 
+                  class="form-control">
+                </div>
+                <div id="result" class="alert alert-primary">Result</div>
+                <button type="button" class="btn btn-primary" onclick="calculateBestOption()">Calculate</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
